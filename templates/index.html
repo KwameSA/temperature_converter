@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversion System</title>
+    <link rel="stylesheet" href="/static/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temperature Converter</h1>
+      <form id="conversionForm">
+        <label for="temp_name">Scale (C or F)</label>
+        <input type="text" id="temp_name" maxlength="1" placeholder="Enter scale you are converting from" />
+
+        <label for="temp_value">Temperature Value</label>
+        <input type="number" id="temp_value" placeholder="Enter value you are converting from" />
+
+        <button type="submit">Convert</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+  </body>
+</html>
