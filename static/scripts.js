@@ -36,7 +36,7 @@ document.getElementById("conversionForm").addEventListener("submit", function (e
           endGradient = "linear-gradient(to right, #ff6b6b, #d64545)";
         }
         generateKeyframes(endGradient);
-        bodyElement.style.animation = "backgroundFade 5s ease-in-out forwards";
+        bodyElement.style.animation = "backgroundFade 0.5s ease-in-out forwards";
       } else if (tempName === "C") {
         temperature = (temperature * 9) / 5 + 32;
         if (temperature < 50) {
@@ -47,7 +47,7 @@ document.getElementById("conversionForm").addEventListener("submit", function (e
           endGradient = "linear-gradient(to right, #ff6b6b, #d64545)";
         }
         generateKeyframes(endGradient);
-        bodyElement.style.animation = "backgroundFade 5s ease-in-out forwards";
+        bodyElement.style.animation = "backgroundFade 0.5s ease-in-out forwards";
       }
     })
     .catch((error) => console.error("Error:", error));
